@@ -12,6 +12,8 @@
 # 250 dólares, y que los clientes grandes tienen un descuento del 5%.
 # c) Porcentaje de toneladas vendidas por categoría. (cantidad_categoria*100/Total)
 
+PRECIO_TONELADA = 250
+
 cantidad_clientes = 0
 total_ventas = 0
 cantidad_toneladas = 0
@@ -29,13 +31,13 @@ while toneladas != 0:
     cantidad_toneladas += toneladas
     
     if toneladas < 100:
-        total_ventas += toneladas * 250
+        total_ventas += toneladas * PRECIO_TONELADA
         toneladas_chico += toneladas
     elif 100 <= toneladas <= 300:
-        total_ventas += toneladas * 250
+        total_ventas += toneladas * PRECIO_TONELADA
         toneladas_mediano += toneladas
     else:
-        total_ventas += (toneladas * 250) * 0.95
+        total_ventas += (toneladas * PRECIO_TONELADA) * 0.95
         toneladas_grande += toneladas
         
     toneladas = int(input("ingrese cantidad de toneladas: "))
