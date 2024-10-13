@@ -1,3 +1,19 @@
+# 1. El cine Atlas de Flores decide digitalizar el control de ventas de entradas para las
+# películas infantiles que estarán en cartelera durante las vacaciones de invierno. Las
+# películas en cartel son: “La Sirenita” y “Super Mario Bros“. Para la venta de las
+# entradas se pide al usuario que ingrese la siguiente información:
+# • Cantidad de entradas (valor entero)
+# • Letra de sala (valor char A o B)
+# • Nombre de película (cadena de caracteres)
+# • Lleva pochoclos (si o no)
+# a) Calcular el porcentaje de ventas de entradas que incluyen pochoclos sobre el
+# total de entradas.
+# b) Determinar la película para la que se vendieron más entradas.
+# c) La sala A tiene una capacidad de 50 personas, mostrar una leyenda en el caso
+# que se supere el 50% de ocupación.
+# • Validar el ingreso correcto de la letra de la sala (solo A o B).
+# • La carga finaliza cuando en cantidad de entradas se ingrese un 0.
+
 CAPACIDAD_A = 50
 
 acumulador_con_pochoclo = 0
