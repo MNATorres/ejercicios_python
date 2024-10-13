@@ -1,3 +1,18 @@
+# 2. En un reconocido banco de la Ciudad de Buenos Aires, los clientes se han formado
+# en una cola por orden de llegada. Con el objeto de llevar registros sobre los clientes
+# que van a la entidad bancaria, el gerente necesita realizar ciertos cálculos sobre las
+# edades de estos. En el banco hay 3 tipos de clientes numerados del 1 al 3 según el
+# tipo de cuenta que poseen. De cada cliente se conoce la siguiente información:
+# • Nombre del cliente
+# • Edad (valor entero)
+# • Tipo_de_cliente (valor entero de 1 a 3)
+# Para simplificar su trabajo, el gerente te pide que desarrolles una aplicación, que
+# obtenga los siguientes resultados:
+# a) La cantidad de clientes por cada tipo de cuenta.
+# b) La edad del cliente más joven (se supone único).
+# c) El promedio de las edades, considerando solo a los clientes del tipo 3.
+# • Se ingresan datos de clientes hasta que el tipo de cuenta sea cero.
+
 clientes_cuenta_1 = 0
 clientes_cuenta_2 = 0
 clientes_cuenta_3 = 0
