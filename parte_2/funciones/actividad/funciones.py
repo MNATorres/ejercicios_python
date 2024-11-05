@@ -8,12 +8,9 @@
 
 def resultAdd(num):
     result = 0
-    divisors  = []
     for i in range (1, num):
         if num % i == 0:
             result += i
-            divisors .append(i)
-    print(f"Divisores de {num} = {divisors}")
     return result
 
 def numberFriends(num1, num2):
