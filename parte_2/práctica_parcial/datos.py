@@ -61,11 +61,11 @@ def usuarios_sin_dinero(nombres, apellidos, caja_ahorro, cuenta_corriente):
             print(f"El usuario {nombres[i]} {apellidos[i]} no tiene dinero en ambas cuentas")
     
 
-nombres = ["Carlos", "María", "José", "Ana", "Luis"]
-apellidos = ["Gómez", "Fernández", "Pérez", "Martínez", "Rodríguez"]
-caja_ahorro = [1500.75, -234.60, 980.00, 3200.20, -120.50]
-cuenta_corriente = [200.00, -1350.40, -75.25, -450.60, -980.15]
-# cargar(nombres, apellidos, caja_ahorro, cuenta_corriente)
+# nombres = ["Carlos", "María", "José", "Ana", "Luis"]
+# apellidos = ["Gómez", "Fernández", "Pérez", "Martínez", "Rodríguez"]
+# caja_ahorro = [1500.75, -234.60, 980.00, 3200.20, -120.50]
+# cuenta_corriente = [200.00, -1350.40, -75.25, -450.60, -980.15]
+cargar(nombres, apellidos, caja_ahorro, cuenta_corriente)
 print(f"nombres: {nombres}")
 print(f"apellidos: {apellidos}")
 print(f"saldo_ca: {caja_ahorro}")
