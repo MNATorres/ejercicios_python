@@ -43,21 +43,23 @@ def ordenar(vec_ord, vec2, vec3):
     auxLen = len(vec_ord)
     for i in range(0, auxLen -1, 1):
         for j in range(i + 1, auxLen, 1):
+            print(f"comparo i{vec_ord[i]} con j{vec_ord[j]}")
+            
             if vec_ord[i] > vec_ord[j]:
                 cambiarOrden(vec_ord, i, j)
                 cambiarOrden(vec2, i, j)
                 cambiarOrden(vec3, i, j)
 
 
-nombres = []
-sueldos = []
-edades = []
-cargarDatos(nombres, sueldos, edades)
+nombres = ["Juan", "María", "Pedro", "Lucía", "Carlos"]
+sueldos = [2500, 3200, 2800, 4000, 3500]
+edades = [30, 25, 35, 28, 40]
+#cargarDatos(nombres, sueldos, edades)
 
 if len(nombres) > 0:
     mostrarDatos(nombres, sueldos, edades)
     indiceAuxiliar = indiceSueldoMasBajo(sueldos)
     print(f"El sueldo mas bajo es de {nombres[indiceAuxiliar]} con un sueldo {sueldos[indiceAuxiliar]}")
-    ordenar(nombres, sueldos, edades)
+    ordenar(sueldos, nombres, edades)
     mostrarDatos(nombres, sueldos, edades)
 
